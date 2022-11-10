@@ -1,0 +1,23 @@
+.services {
+  display: flex;
+  margin: 8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .service {
+    width: 30rem;
+    text-align: center;
+    margin: 2rem;
+
+    .icon {
+      height: 8rem;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .services {
+    margin: 1rem;
+  }
+}
